@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.all_tags{
+ display: flex;
+ justify-content: center;
+   margin-top: 5%;
+}
+.Generate_Name_Tag{
+  
+    background-color: rgb(247, 243, 243);
+    border-top-left-radius:25px ;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius: 25px;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    border: unset;
+ 
+}
+.bg_top{
+    background-color: red;
+    width: 700px;
+    border-top-left-radius:25px ;
+    border-top-right-radius: 25px;
+    
+    height: 150px;
+    position: absolute;
+    top: 0;
+}
+.bg_bottom{
+    background-color: red;
+    width: 700px;
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius: 25px;
+    height: 40px;
+    position: absolute;
+    bottom: 0; 
+}
+.text{
+    padding-left: 30%;
+
+    position: absolute;
+    top: 30px;
+width: 500px;
+    color: #ffffff;
+    text-align: center;
+ 
+}
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 10;
+}
+h1, h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    color: #111;
+    text-indent: 25px;
+    height: 150px;
+    border: unset;
+}
